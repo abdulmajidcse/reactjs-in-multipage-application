@@ -14,11 +14,20 @@
     <div id="counter"></div>
 
     <!-- Load React. -->
-    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    
+    <!-- for production only -->
+    <!-- <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script> -->
+    <!-- <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script> -->
 
     <!-- Load our React component. -->
-    <script src="assets/js/counter.min.js"></script>
+    <!-- for development only -->
+    <script src="assets/js/counter.js"></script>
+    
+    <!-- for production only -->
+    <!-- <script src="assets/js/counter.min.js"></script> -->
 </body>
 
 </html>
