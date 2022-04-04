@@ -1,0 +1,5 @@
+Add JSX to HTML and convert jsx to normal js: https://reactjs.org/docs/add-react-to-a-website.html#add-jsx-to-a-project
+
+React Production version for normal HTML App: https://reactjs.org/docs/add-react-to-a-website.html#tip-minify-javascript-for-production
+
+minify the application scripts for production: https://gist.github.com/gaearon/42a2ffa41b8319948f9be4076286e1f3
